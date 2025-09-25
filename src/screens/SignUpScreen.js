@@ -95,19 +95,19 @@ const styles = StyleSheet.create({
   logoText: {
     fontFamily: 'Urbanist-Bold',
     fontSize: 42,
-    color: '#2C3E50',
+    color: '#21262E',
     textAlign: 'center',
     marginBottom: 10,
   },
   title: {
     fontFamily: 'Urbanist-Regular',
     fontSize: 20,
-    color: '#2C3E50',
+    color: '#21262E',
     textAlign: 'center',
     marginBottom: 40,
   },
   input: {
-    fontFamily: 'Urbanist-Regular',
+    fontFamily: 'Urbanist-Bold',
     backgroundColor: '#F8F9FA',
     borderWidth: 1,
     borderColor: '#E5E7EB',
@@ -115,14 +115,14 @@ const styles = StyleSheet.create({
     padding: 15,
     fontSize: 16,
     marginBottom: 15,
-    color: '#2C3E50',
+    color: '#21262E',
   },
   passwordContainer: {
     position: 'relative',
     marginBottom: 15,
   },
   passwordInput: {
-    fontFamily: 'Urbanist-Regular',
+    fontFamily: 'Urbanist-Bold',
     backgroundColor: '#F8F9FA',
     borderWidth: 1,
     borderColor: '#E5E7EB',
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     padding: 15,
     paddingRight: 50,
     fontSize: 16,
-    color: '#2C3E50',
+    color: '#21262E',
   },
   eyeButton: {
     position: 'absolute',
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   button: {
-    backgroundColor: '#F1C40F',
+    backgroundColor: '#FFD800',
     padding: 18,
     borderRadius: 8,
     alignItems: 'center',
@@ -148,18 +148,18 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontFamily: 'Urbanist-Bold',
-    color: '#2C3E50',
+    color: '#21262E',
     fontSize: 16,
   },
   linkText: {
     fontFamily: 'Urbanist-Regular',
     marginTop: 25,
-    color: '#2C3E50',
+    color: '#21262E',
     textAlign: 'center',
   },
   linkBold: {
     fontFamily: 'Urbanist-Bold',
-    color: '#F1C40F',
+    color: '#FFD800',
   },
 });
 

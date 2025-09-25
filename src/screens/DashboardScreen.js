@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontFamily: 'Urbanist-Bold',
     fontSize: 34,
-    color: '#2C3E50',
+    color: '#21262E',
     marginTop: 20,
     marginBottom: 20,
   },
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontFamily: 'Urbanist-Bold',
     fontSize: 20,
-    color: '#2C3E50',
+    color: '#21262E',
   },
 });
 

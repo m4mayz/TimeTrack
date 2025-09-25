@@ -20,7 +20,7 @@ const AppNavigator = () => {
           headerStyle: {
             backgroundColor: '#FFFFFF',
           },
-          headerTintColor: '#2C3E50',
+          headerTintColor: '#21262E',
           headerTitleStyle: {
             fontFamily: 'Urbanist-Bold', // Gunakan font custom di header
           },

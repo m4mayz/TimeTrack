@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 52,
     fontFamily: 'Urbanist-Bold', // Font sesuai desain
-    color: '#2C3E50', // Warna abu-abu kebiruan gelap [cite: 9]
+    color: '#21262E', // Warna abu-abu kebiruan gelap [cite: 9]
   },
 });
 
