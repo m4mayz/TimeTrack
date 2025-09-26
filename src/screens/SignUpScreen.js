@@ -16,8 +16,8 @@ import { FontAwesome } from '@react-native-vector-icons/fontawesome';
 const SignUpScreen = ({ navigation }) => {
   const [nama, setNama] = useState('');
   const [email, setEmail] = useState('');
-  const [password, confirmPassword, setPassword, setConfirmPassword] =
-    useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
