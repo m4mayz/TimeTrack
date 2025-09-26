@@ -1,7 +1,7 @@
 // src/screens/SplashScreen.js
 
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, StatusBar } from 'react-native';
+import { View, StyleSheet, StatusBar, Image } from 'react-native';
 
 const SplashScreen = ({ navigation }) => {
   useEffect(() => {
@@ -13,7 +13,13 @@ const SplashScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
-      <Text style={styles.title}>TimeTrack</Text>
+      <Image
+        source={require('../assets/img/splash.png')}
+        style={{
+          height: 250,
+          resizeMode: 'contain',
+        }}
+      />
     </View>
   );
 };
@@ -23,12 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF', // Latar belakang putih [cite: 18]
-  },
-  title: {
-    fontSize: 52,
-    fontFamily: 'Urbanist-Bold', // Font sesuai desain
-    color: '#21262E', // Warna abu-abu kebiruan gelap [cite: 9]
+    backgroundColor: '#6a453b',
   },
 });
 

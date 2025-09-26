@@ -24,9 +24,8 @@ const HistoryCard = ({ title, imageSource, onPress }) => (
 const DashboardScreen = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
+      <Text style={styles.headerTitle}>Discover</Text>
       <ScrollView style={styles.container}>
-        <Text style={styles.headerTitle}>Discover</Text> [cite: 52]
-        {/* Contoh Kartu Sejarah */}
         <HistoryCard
           title="Sejarah Kartini"
           imageSource={{
@@ -40,6 +39,20 @@ const DashboardScreen = () => {
             uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Capture_of_Prince_Diponegoro.jpg/1200px-Capture_of_Prince_Diponegoro.jpg',
           }}
           onPress={() => alert('Membuka Perang Diponegoro...')}
+        />
+        <HistoryCard
+          title="Kerajaan Majapahit"
+          imageSource={{
+            uri: 'https://cdn.idntimes.com/content-images/community/2019/07/candi-penataran-blitar-jawa-timur-komplek-candi-peninggalan-kerajaan-majapahit-e43501a6b052d9a973a8f15d70b72a6b.jpg',
+          }}
+          onPress={() => alert('Membuka Kerajaan Majapahit...')}
+        />
+        <HistoryCard
+          title="Kerajaan Majapahit"
+          imageSource={{
+            uri: 'https://cdn.idntimes.com/content-images/community/2019/07/candi-penataran-blitar-jawa-timur-komplek-candi-peninggalan-kerajaan-majapahit-e43501a6b052d9a973a8f15d70b72a6b.jpg',
+          }}
+          onPress={() => alert('Membuka Kerajaan Majapahit...')}
         />
         <HistoryCard
           title="Kerajaan Majapahit"
@@ -64,6 +77,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontFamily: 'Urbanist-Bold',
+    paddingHorizontal: 20,
     fontSize: 34,
     color: '#21262E',
     marginTop: 20,

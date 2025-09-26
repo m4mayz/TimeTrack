@@ -51,6 +51,9 @@
 	<array>
 		<string>Urbanist-Bold.ttf</string>
 		<string>Urbanist-Regular.ttf</string>
+		<string>OldStandardTT-Bold.ttf</string>
+		<string>OldStandardTT-Italic.ttf</string>
+		<string>OldStandardTT-Regular.ttf</string>
 	</array>
 </dict>
 </plist>

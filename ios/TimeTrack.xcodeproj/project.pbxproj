@@ -13,6 +13,9 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		E7E5BD308CB149B7A280BDF5 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7548AC3493A4C2399B1BE33 /* Urbanist-Bold.ttf */; };
 		83F3743878C44F329DE2EA59 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EB7875FC1435C82E68467 /* Urbanist-Regular.ttf */; };
+		B4D3D68EDD3B4E8FA4A285A7 /* OldStandardTT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F83CB07755F34DF18A5FBA2E /* OldStandardTT-Bold.ttf */; };
+		B9856C0AEC4B49EE801E8135 /* OldStandardTT-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D129F58379E491E98CEA28C /* OldStandardTT-Italic.ttf */; };
+		4D28C651915D4951883AB62A /* OldStandardTT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9EC4DC7C9F4DC9A4354A77 /* OldStandardTT-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F7548AC3493A4C2399B1BE33 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; name = "Urbanist-Bold.ttf"; path = "../src/assets/fonts/Urbanist-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9B3EB7875FC1435C82E68467 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; name = "Urbanist-Regular.ttf"; path = "../src/assets/fonts/Urbanist-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F83CB07755F34DF18A5FBA2E /* OldStandardTT-Bold.ttf */ = {isa = PBXFileReference; name = "OldStandardTT-Bold.ttf"; path = "../src/assets/fonts/OldStandardTT-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D129F58379E491E98CEA28C /* OldStandardTT-Italic.ttf */ = {isa = PBXFileReference; name = "OldStandardTT-Italic.ttf"; path = "../src/assets/fonts/OldStandardTT-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A9EC4DC7C9F4DC9A4354A77 /* OldStandardTT-Regular.ttf */ = {isa = PBXFileReference; name = "OldStandardTT-Regular.ttf"; path = "../src/assets/fonts/OldStandardTT-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 			children = (
 				F7548AC3493A4C2399B1BE33 /* Urbanist-Bold.ttf */,
 				9B3EB7875FC1435C82E68467 /* Urbanist-Regular.ttf */,
+				F83CB07755F34DF18A5FBA2E /* OldStandardTT-Bold.ttf */,
+				1D129F58379E491E98CEA28C /* OldStandardTT-Italic.ttf */,
+				2A9EC4DC7C9F4DC9A4354A77 /* OldStandardTT-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,6 +185,9 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				E7E5BD308CB149B7A280BDF5 /* Urbanist-Bold.ttf in Resources */,
 				83F3743878C44F329DE2EA59 /* Urbanist-Regular.ttf in Resources */,
+				B4D3D68EDD3B4E8FA4A285A7 /* OldStandardTT-Bold.ttf in Resources */,
+				B9856C0AEC4B49EE801E8135 /* OldStandardTT-Italic.ttf in Resources */,
+				4D28C651915D4951883AB62A /* OldStandardTT-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
