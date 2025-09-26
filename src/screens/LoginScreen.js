@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Alert,
   StatusBar,
+  Image,
 } from 'react-native';
 import { FontAwesome } from '@react-native-vector-icons/fontawesome';
 
@@ -27,7 +28,7 @@ const LoginScreen = ({ navigation }) => {
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
       <Text style={styles.logoText}>TimeTrack</Text>
-      <Text style={styles.title}>Login to Your Account</Text>
+      <Text style={styles.title}>Login ke Akun Anda</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
@@ -60,14 +61,17 @@ const LoginScreen = ({ navigation }) => {
       <TouchableOpacity style={styles.button} onPress={handleLogin}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
-      <Text style={styles.dividerText}>or continue with</Text>
+      <Text style={styles.dividerText}>atau login dengan</Text>
       <TouchableOpacity style={styles.socialButton} onPress={() => {}}>
-        <FontAwesome name="google" size={24} />
+        <Image
+          source={require('../assets/img/google.png')}
+          style={styles.icon}
+        />
         <Text style={styles.socialButtonText}>Google</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
         <Text style={styles.linkText}>
-          Don't have an account? <Text style={styles.linkBold}>Sign Up</Text>
+          Belum punya akun? <Text style={styles.linkBold}>Daftar disini</Text>
         </Text>
       </TouchableOpacity>
     </View>
@@ -100,7 +104,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F8F9FA',
     borderWidth: 1,
     borderColor: '#E5E7EB',
-    borderRadius: 8,
+    borderRadius: 20,
     padding: 15,
     fontSize: 16,
     marginBottom: 15,
@@ -115,7 +119,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F8F9FA',
     borderWidth: 1,
     borderColor: '#E5E7EB',
-    borderRadius: 8,
+    borderRadius: 20,
     padding: 15,
     paddingRight: 50,
     fontSize: 16,
@@ -131,7 +135,7 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#FFD800',
     padding: 18,
-    borderRadius: 8,
+    borderRadius: 20,
     alignItems: 'center',
     marginVertical: 10,
   },
@@ -154,7 +158,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#E5E7EB',
     padding: 15,
-    borderRadius: 8,
+    borderRadius: 20,
   },
   socialButtonText: {
     fontFamily: 'Urbanist-Bold',
@@ -171,6 +175,10 @@ const styles = StyleSheet.create({
   linkBold: {
     fontFamily: 'Urbanist-Bold',
     color: '#FFD800',
+  },
+  icon: {
+    height: 24,
+    width: 24,
   },
 });
 
