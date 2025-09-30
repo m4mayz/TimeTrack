@@ -1,4 +1,4 @@
-// src/navigation/AppNavigator.js (Update)
+// src/navigation/ScreenNavigator.js (Update)
 
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -7,11 +7,11 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from '../screens/SplashScreen';
 import LoginScreen from '../screens/LoginScreen';
 import SignUpScreen from '../screens/SignUpScreen';
-import DashboardScreen from '../screens/DashboardScreen';
+import MainNavBar from './MainNavBar';
 
 const Stack = createNativeStackNavigator();
 
-const AppNavigator = () => {
+const ScreenNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -43,8 +43,8 @@ const AppNavigator = () => {
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name="Dashboard"
-          component={DashboardScreen}
+          name="MainNavBar"
+          component={MainNavBar}
           options={{ headerShown: false }} // Halaman utama biasanya tidak pakai header default
         />
       </Stack.Navigator>
@@ -52,4 +52,4 @@ const AppNavigator = () => {
   );
 };
 
-export default AppNavigator;
+export default ScreenNavigator;

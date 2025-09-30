@@ -21,7 +21,7 @@ const LoginScreen = ({ navigation }) => {
       Alert.alert('Error', 'Email dan Password tidak boleh kosong!');
       return;
     }
-    navigation.replace('Dashboard');
+    navigation.replace('MainNavBar');
   };
 
   return (

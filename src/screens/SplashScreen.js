@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { View, StyleSheet, StatusBar, Image } from 'react-native';
+import { COLORS } from '../styles/styles';
 
 const SplashScreen = ({ navigation }) => {
   useEffect(() => {
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#6a453b',
+    backgroundColor: COLORS.secondary,
   },
 });
 

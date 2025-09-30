@@ -1,10 +1,10 @@
 // App.tsx
 
 import React from 'react';
-import AppNavigator from './src/navigation/AppNavigator';
+import ScreenNavigator from './src/navigation/ScreenNavigator';
 
 const App = () => {
-  return <AppNavigator />;
+  return <ScreenNavigator />;
 };
 
 export default App;

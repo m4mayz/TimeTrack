@@ -33,7 +33,7 @@ const SignUpScreen = ({ navigation }) => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>Membuat akun baru</Text>
+      <Text style={styles.title}>Membuat Akun Baru</Text>
 
       <TextInput
         style={styles.input}
