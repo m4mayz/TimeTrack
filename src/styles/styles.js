@@ -127,7 +127,6 @@ const styles = StyleSheet.create({
   dashboardContainer: {
     flex: 1,
     paddingHorizontal: 15,
-    paddingTop: 20,
     backgroundColor: COLORS.white,
   },
   contentContainer: {
@@ -235,8 +234,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   featureIconContainer: {
-    width: 60,
-    height: 60,
+    width: 50,
+    height: 50,
     borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
@@ -248,8 +247,8 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   featureIconImage: {
-    width: 45,
-    height: 45,
+    width: 40,
+    height: 40,
     resizeMode: 'contain',
   },
   specialIconContainer: {

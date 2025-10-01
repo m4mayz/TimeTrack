@@ -48,7 +48,7 @@ const HistoryCard = ({ title, imageSource, onPress }) => (
 const DashboardScreen = () => {
   return (
     <View style={styles.NavMenuSafeArea}>
-      {/* Header */}
+      {/* Header  */}
       <View>
         <View style={styles.userGreeting}>
           <Image
