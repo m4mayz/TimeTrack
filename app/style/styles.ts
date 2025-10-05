@@ -6,6 +6,8 @@ export const COLORS = {
     background: "#e9e2ce", // Krem
     accent1: "#7399bd", // Biru Muda
     accent2: "#1c477f", // Biru Tua
+    accent3: "#e67e22", // Oranye
+    accent4: "#bd671b", // Oranye Tua
     white: "#FFFFFF",
     gray: "#A9A9A9",
 };
@@ -356,58 +358,80 @@ const styles = StyleSheet.create({
         fontFamily: FONTS.bold,
         textAlign: "center",
     },
-    featuresGrid: {
+    // Professional Features Menu Styles
+    professionalFeaturesContainer: {
+        backgroundColor: COLORS.background,
+        marginBottom: 25,
+        // marginHorizontal: 15,
+        borderRadius: 16,
+        padding: 10,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.08,
+        shadowRadius: 8,
+        elevation: 4,
+    },
+    professionalFeaturesGrid: {
         flexDirection: "row",
         justifyContent: "space-between",
-        // marginBottom: 25,
-        // paddingHorizontal: 5,
+        alignItems: "flex-start",
     },
-    featureIcon: {
+    professionalFeatureButton: {
         alignItems: "center",
         flex: 1,
+        paddingVertical: 8,
     },
-    featureIconContainer: {
-        width: 50,
-        height: 50,
-        borderRadius: 10,
+    professionalFeatureIconWrapper: {
+        width: 56,
+        height: 56,
+        borderRadius: 14,
         alignItems: "center",
         justifyContent: "center",
-        marginHorizontal: 3,
+        marginHorizontal: 4,
         shadowColor: "#000",
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 4,
-        elevation: 3,
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.15,
+        shadowRadius: 6,
+        elevation: 5,
+        borderWidth: 1,
+        borderColor: "rgba(255, 255, 255, 0.2)",
     },
-    featureIconImage: {
-        width: 40,
-        height: 40,
+    professionalFeatureIcon: {
+        width: 32,
+        height: 32,
         resizeMode: "contain",
     },
-    specialIconContainer: {
-        backgroundColor: COLORS.accent1,
+    professionalFeatureSpecialBackground: {
+        borderWidth: 2,
+        borderColor: "#e67e22",
+        shadowColor: "#e67e22",
+        shadowOpacity: 0.3,
     },
-    newBadge: {
+    professionalFeatureNewBadge: {
         position: "absolute",
-        top: -5,
-        right: -5,
-        backgroundColor: "#ef4444",
-        paddingHorizontal: 6,
-        paddingVertical: 2,
-        borderRadius: 8,
+        top: -6,
+        right: -6,
+        backgroundColor: "#e74c3c",
+        paddingHorizontal: 8,
+        paddingVertical: 3,
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: COLORS.white,
     },
-    newBadgeText: {
+    professionalFeatureNewBadgeText: {
         color: COLORS.white,
-        fontSize: 8,
+        fontSize: 9,
         fontFamily: FONTS.bold,
+        letterSpacing: 0.5,
     },
-    featureLabel: {
-        fontSize: 11,
+    professionalFeatureLabel: {
+        fontSize: 10,
         textAlign: "center",
-        marginTop: 8,
+        marginTop: 5,
         color: COLORS.primary,
-        fontFamily: FONTS.regular,
-        lineHeight: 14,
+        fontFamily: FONTS.bold,
+        lineHeight: 16,
+        maxWidth: 80,
     },
     historySection: {
         marginBottom: 25,

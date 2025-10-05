@@ -9,31 +9,43 @@ import {
 } from "react-native";
 import styles, { COLORS } from "../style/styles";
 
-// Feature Icon Component
-type FeatureIconProps = {
+// Professional Feature Menu Component
+type ProfessionalFeatureItemProps = {
     icon: any;
     label: string;
     bgColor?: string;
-    isSpecial?: boolean;
+    isNew?: boolean;
+    onPress?: () => void;
 };
 
-const FeatureIcon = ({ icon, label, bgColor, isSpecial }: FeatureIconProps) => (
-    <TouchableOpacity style={styles.featureIcon}>
+const ProfessionalFeatureItem = ({
+    icon,
+    label,
+    bgColor,
+    isNew,
+    onPress,
+}: ProfessionalFeatureItemProps) => (
+    <TouchableOpacity
+        style={styles.professionalFeatureButton}
+        onPress={onPress}
+    >
         <View
             style={[
-                styles.featureIconContainer,
+                styles.professionalFeatureIconWrapper,
                 { backgroundColor: bgColor || COLORS.secondary },
-                isSpecial && styles.specialIconContainer,
+                isNew && styles.professionalFeatureSpecialBackground,
             ]}
         >
-            <Image source={icon} style={styles.featureIconImage} />
-            {isSpecial && (
-                <View style={styles.newBadge}>
-                    <Text style={styles.newBadgeText}>NEW</Text>
+            <Image source={icon} style={styles.professionalFeatureIcon} />
+            {isNew && (
+                <View style={styles.professionalFeatureNewBadge}>
+                    <Text style={styles.professionalFeatureNewBadgeText}>
+                        NEW
+                    </Text>
                 </View>
             )}
         </View>
-        <Text style={styles.featureLabel}>{label}</Text>
+        <Text style={styles.professionalFeatureLabel}>{label}</Text>
     </TouchableOpacity>
 );
 
@@ -124,24 +136,33 @@ const DashboardScreen = () => {
                 </View>
             </View>
             <ScrollView style={styles.dashboardContainer}>
-                {/* Feature Icons */}
-                <View style={styles.contentContainer}>
-                    <View style={styles.featuresGrid}>
-                        <FeatureIcon
+                {/* Professional Features Menu */}
+                <View style={styles.professionalFeaturesContainer}>
+                    <View style={styles.professionalFeaturesGrid}>
+                        <ProfessionalFeatureItem
                             icon={require("../assets/img/012-book.png")}
                             label="Jelajahi Sejarah"
+                            bgColor={COLORS.accent1}
+                            onPress={() => alert("Fitur Jelajahi Sejarah")}
                         />
-                        <FeatureIcon
+                        <ProfessionalFeatureItem
                             icon={require("../assets/img/023-map.png")}
                             label="Peta Sejarah"
+                            bgColor={COLORS.accent2}
+                            onPress={() => alert("Fitur Peta Sejarah")}
                         />
-                        <FeatureIcon
+                        <ProfessionalFeatureItem
                             icon={require("../assets/img/045-papyrus-1.png")}
                             label="Quiz Sejarah"
+                            bgColor={"#e67e22"}
+                            // isNew={true}
+                            onPress={() => alert("Fitur Quiz Sejarah")}
                         />
-                        <FeatureIcon
+                        <ProfessionalFeatureItem
                             icon={require("../assets/img/032-pantheon.png")}
                             label="Market Place"
+                            bgColor={COLORS.secondary}
+                            onPress={() => alert("Fitur Market Place")}
                         />
                     </View>
                 </View>
