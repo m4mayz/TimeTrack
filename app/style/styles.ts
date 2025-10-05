@@ -9,6 +9,7 @@ export const COLORS = {
     accent3: "#e67e22", // Oranye
     accent4: "#bd671b", // Oranye Tua
     white: "#FFFFFF",
+    darkWhite: "#f3f3f3ff",
     gray: "#A9A9A9",
 };
 
@@ -433,55 +434,150 @@ const styles = StyleSheet.create({
         lineHeight: 16,
         maxWidth: 80,
     },
-    historySection: {
-        marginBottom: 25,
+    // Professional Content Sections Styles
+    allContentSectionsContainer: {
+        marginBottom: 20,
     },
-    sectionHeader: {
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-        marginBottom: 15,
-    },
-    sectionTitle: {
-        fontFamily: FONTS.bold,
-        fontSize: 22,
-        color: COLORS.primary,
-    },
-    viewAllLink: {
-        color: COLORS.accent2,
-        fontFamily: FONTS.bold,
-        fontSize: 16,
-    },
-    historyGrid: {
-        flexDirection: "row",
-        flexWrap: "wrap",
-        justifyContent: "space-between",
-    },
-    historyCard: {
-        backgroundColor: COLORS.white,
-        borderRadius: 15,
-        marginBottom: 15,
-        width: "48%",
+    contentSectionContainer: {
+        marginHorizontal: -15,
+        // marginBottom: 24,
+        // borderRadius: 16,
+        overflow: "hidden",
         shadowColor: "#000",
-        shadowOffset: { width: 0, height: 3 },
-        shadowOpacity: 0.12,
-        shadowRadius: 6,
-        elevation: 4,
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.1,
+        shadowRadius: 8,
+        elevation: 6,
     },
-    historyCardImage: {
+    contentSectionHeader: {
+        paddingHorizontal: 20,
+        paddingVertical: 16,
+    },
+    contentSectionTitle: {
+        fontFamily: FONTS.bold,
+        fontSize: 18,
+        color: COLORS.primary,
+        // textAlign: "center",
+        letterSpacing: 0.5,
+    },
+    contentListContainer: {
+        backgroundColor: COLORS.white,
+        borderRadius: 16,
+        marginTop: 15,
+        marginHorizontal: -10,
+    },
+    contentListItem: {
+        flexDirection: "row",
+        alignItems: "center",
+        paddingHorizontal: 16,
+        paddingVertical: 14,
+    },
+    contentThumbnail: {
+        width: 90,
+        height: 120,
+        borderRadius: 10,
+        marginRight: 14,
+        backgroundColor: COLORS.background,
+    },
+    contentTextContainer: {
+        flex: 1,
+        paddingRight: 10,
+    },
+    contentTitle: {
+        fontFamily: FONTS.bold,
+        fontSize: 15,
+        color: COLORS.primary,
+        lineHeight: 20,
+        marginBottom: 6,
+    },
+    contentSummary: {
+        fontFamily: FONTS.regular,
+        fontSize: 13,
+        color: COLORS.gray,
+        lineHeight: 18,
+    },
+    contentChevron: {
+        marginLeft: 8,
+    },
+    viewAllButton: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        paddingVertical: 16,
+        paddingHorizontal: 20,
+        backgroundColor: COLORS.secondary,
+        borderBottomLeftRadius: 16,
+        borderBottomRightRadius: 16,
+    },
+    viewAllButtonText: {
+        fontFamily: FONTS.bold,
+        fontSize: 14,
+        color: COLORS.white,
+        marginRight: 8,
+    },
+    viewAllButtonHorizontal: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        paddingVertical: 12,
+        paddingHorizontal: 16,
+        backgroundColor: COLORS.secondary,
+        borderRadius: 16,
+        marginBottom: 15,
+    },
+
+    // Horizontal Person Cards Styles
+    horizontalPersonListContainer: {
+        backgroundColor: COLORS.background,
+    },
+    horizontalScrollContent: {
+        paddingHorizontal: 16,
+    },
+    horizontalPersonCard: {
+        width: 180,
+        marginRight: 16,
+        backgroundColor: COLORS.white,
+        borderRadius: 12,
+        padding: 12,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.08,
+        shadowRadius: 4,
+        elevation: 3,
+        borderWidth: 1,
+        borderColor: "#f0f0f0",
+        marginBottom: 15,
+    },
+    personThumbnail: {
         width: "100%",
         height: 120,
-        borderTopLeftRadius: 15,
-        borderTopRightRadius: 15,
+        borderRadius: 8,
+        marginBottom: 12,
+        backgroundColor: COLORS.background,
     },
-    historyCardTextContainer: {
-        padding: 12,
+    personInfoContainer: {
+        flex: 1,
     },
-    historyCardTitle: {
+    personName: {
         fontFamily: FONTS.bold,
-        fontSize: 13,
+        fontSize: 16,
         color: COLORS.primary,
-        lineHeight: 18,
+        marginBottom: 4,
+        textAlign: "center",
+    },
+    personTitle: {
+        fontFamily: FONTS.regular,
+        fontSize: 12,
+        color: COLORS.accent2,
+        marginBottom: 8,
+        textAlign: "center",
+    },
+    personDescription: {
+        fontFamily: FONTS.regular,
+        fontSize: 11,
+        color: COLORS.gray,
+        lineHeight: 16,
+        textAlign: "center",
     },
     bottomNav: {
         backgroundColor: COLORS.primary,

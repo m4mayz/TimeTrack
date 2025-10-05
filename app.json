@@ -40,7 +40,8 @@
                         "backgroundColor": "#000000"
                     }
                 }
-            ]
+            ],
+            "react-native-google-mobile-ads"
         ],
         "experiments": {
             "typedRoutes": true,
@@ -52,5 +53,8 @@
                 "projectId": "9c8f6c86-61f3-4736-9582-f540425b5c86"
             }
         }
+    },
+    "react-native-google-mobile-ads": {
+        "android_app_id": "ca-app-pub-5873781882038560~1235593680"
     }
 }
