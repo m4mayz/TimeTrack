@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+# TimeTrack
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi pembelajaran sejarah berbasis mobile yang dirancang untuk memberikan pengalaman interaktif dan edukatif kepada pengguna. Dengan TimeTrack, pengguna dapat menjelajahi berbagai peristiwa sejarah melalui fitur-fitur seperti kuis, timeline interaktif, dan konten multimedia yang menarik.
 
-## Get started
+# Tech Stack
 
-1. Install dependencies
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=flat&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 
-   ```bash
-   npm install
-   ```
+# Developed By
 
-2. Start the app
+### Akmal Zaidan Hibatullah
 
-   ```bash
-   npx expo start
-   ```
+Student at Nusa Putra University, majoring in Informatics Engineering. Passionate all about technology and always eager to learn more.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[![M4mayz](https://img.shields.io/badge/M4mayz-000000?style=flat&logo=github&logoColor=white)](https://github.com/M4mayz)
+[![LinkedIn Banner](https://img.shields.io/badge/Connect%20with%20me%20on%20LinkedIn-%40m4mayz-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m4mayz/)
+[![Instagram Banner](https://img.shields.io/badge/Follow%20me%20on%20Instagram-%40m4mayz-833AB4?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/m4mayz/)
