@@ -632,6 +632,219 @@ const styles = StyleSheet.create({
     navLabelInactive: {
         color: COLORS.secondary,
     },
+
+    // Favorite Page Styles
+    favoriteHeader: {
+        backgroundColor: COLORS.primary,
+        paddingHorizontal: 20,
+        paddingBottom: 20,
+    },
+    favoriteHeaderTop: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "flex-start",
+        marginBottom: 20,
+    },
+    favoriteHeaderTitle: {
+        fontFamily: FONTS.bold,
+        fontSize: 28,
+        color: COLORS.white,
+        marginBottom: 4,
+    },
+    favoriteHeaderSubtitle: {
+        fontFamily: FONTS.regular,
+        fontSize: 14,
+        color: COLORS.secondary,
+    },
+    favoriteHeaderButton: {
+        padding: 8,
+        borderRadius: 12,
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+    },
+    favoriteSearchContainer: {
+        marginBottom: 20,
+    },
+    favoriteSearchBar: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: COLORS.white,
+        borderRadius: 16,
+        paddingHorizontal: 16,
+        paddingVertical: 12,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+        elevation: 3,
+    },
+    favoriteSearchIcon: {
+        marginRight: 12,
+    },
+    favoriteSearchInput: {
+        flex: 1,
+        fontFamily: FONTS.regular,
+        fontSize: 16,
+        color: COLORS.primary,
+        paddingVertical: 0,
+    },
+    favoriteCategoryContainer: {
+        marginBottom: 10,
+    },
+    favoriteCategoryButton: {
+        paddingHorizontal: 16,
+        paddingVertical: 8,
+        marginRight: 12,
+        borderRadius: 20,
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+        borderWidth: 1,
+        borderColor: "rgba(255, 255, 255, 0.2)",
+    },
+    favoriteCategoryButtonActive: {
+        backgroundColor: COLORS.secondary,
+        borderColor: COLORS.secondary,
+    },
+    favoriteCategoryText: {
+        fontFamily: FONTS.regular,
+        fontSize: 14,
+        color: COLORS.secondary,
+    },
+    favoriteCategoryTextActive: {
+        color: COLORS.white,
+        fontFamily: FONTS.bold,
+    },
+    favoriteListContainer: {
+        flex: 1,
+        backgroundColor: COLORS.background,
+        marginTop: -20,
+        marginBottom: -30,
+    },
+    favoriteList: {
+        padding: 20,
+    },
+    favoriteItem: {
+        backgroundColor: COLORS.white,
+        marginHorizontal: -5,
+        borderRadius: 16,
+        marginBottom: 16,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.08,
+        shadowRadius: 8,
+        elevation: 4,
+    },
+    favoriteItemContent: {
+        flexDirection: "row",
+        padding: 16,
+    },
+    favoriteItemImage: {
+        width: 80,
+        height: 100,
+        borderRadius: 12,
+        backgroundColor: COLORS.background,
+        marginRight: 16,
+    },
+    favoriteItemInfo: {
+        flex: 1,
+    },
+    favoriteItemHeader: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "flex-start",
+        marginBottom: 8,
+    },
+    favoriteItemCategory: {
+        fontFamily: FONTS.regular,
+        fontSize: 12,
+        color: COLORS.accent2,
+        textTransform: "uppercase",
+        letterSpacing: 0.5,
+    },
+    favoriteRemoveButton: {
+        padding: 4,
+    },
+    favoriteItemTitle: {
+        fontFamily: FONTS.bold,
+        fontSize: 16,
+        color: COLORS.primary,
+        marginBottom: 8,
+        lineHeight: 22,
+    },
+    favoriteItemSummary: {
+        fontFamily: FONTS.regular,
+        fontSize: 14,
+        color: COLORS.gray,
+        lineHeight: 20,
+        marginBottom: 12,
+    },
+    favoriteItemMeta: {
+        gap: 8,
+    },
+    favoriteItemTags: {
+        flexDirection: "row",
+        flexWrap: "wrap",
+        gap: 6,
+        marginBottom: 8,
+    },
+    favoriteTag: {
+        backgroundColor: COLORS.background,
+        paddingHorizontal: 8,
+        paddingVertical: 4,
+        borderRadius: 12,
+    },
+    favoriteTagText: {
+        fontFamily: FONTS.regular,
+        fontSize: 11,
+        color: COLORS.primary,
+    },
+    favoriteItemFooter: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+    },
+    favoriteItemReadTime: {
+        fontFamily: FONTS.regular,
+        fontSize: 12,
+        color: COLORS.gray,
+    },
+    favoriteItemDate: {
+        fontFamily: FONTS.regular,
+        fontSize: 12,
+        color: COLORS.gray,
+    },
+    favoriteEmptyState: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        paddingHorizontal: 40,
+        paddingVertical: 80,
+    },
+    favoriteEmptyTitle: {
+        fontFamily: FONTS.bold,
+        fontSize: 20,
+        color: COLORS.primary,
+        textAlign: "center",
+        marginTop: 16,
+        marginBottom: 8,
+    },
+    favoriteEmptySubtitle: {
+        fontFamily: FONTS.regular,
+        fontSize: 16,
+        color: COLORS.gray,
+        textAlign: "center",
+        lineHeight: 24,
+        marginBottom: 24,
+    },
+    favoriteEmptyButton: {
+        backgroundColor: COLORS.secondary,
+        paddingHorizontal: 24,
+        paddingVertical: 12,
+        borderRadius: 24,
+    },
+    favoriteEmptyButtonText: {
+        fontFamily: FONTS.bold,
+        fontSize: 14,
+        color: COLORS.white,
+    },
 });
 
 export default styles;

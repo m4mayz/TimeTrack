@@ -289,13 +289,6 @@ const DashboardScreen = () => {
                             placeholder="Jelajahi sejarah menarik..."
                             placeholderTextColor={COLORS.gray}
                         />
-                        <TouchableOpacity style={styles.filterButton}>
-                            <FontAwesome
-                                name="filter"
-                                size={14}
-                                color={COLORS.primary}
-                            />
-                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -306,20 +299,20 @@ const DashboardScreen = () => {
                         <ProfessionalFeatureItem
                             icon={require("../assets/img/012-book.png")}
                             label="Jelajahi Sejarah"
-                            bgColor={COLORS.accent1}
+                            bgColor={COLORS.secondary}
                             onPress={() => alert("Fitur Jelajahi Sejarah")}
                         />
                         <ProfessionalFeatureItem
                             icon={require("../assets/img/023-map.png")}
                             label="Peta Sejarah"
-                            bgColor={COLORS.accent2}
+                            bgColor={COLORS.secondary}
                             onPress={() => alert("Fitur Peta Sejarah")}
                         />
                         <ProfessionalFeatureItem
                             icon={require("../assets/img/045-papyrus-1.png")}
                             label="Quiz Sejarah"
-                            bgColor={"#e67e22"}
-                            // isNew={true}
+                            bgColor={COLORS.secondary}
+                            isNew={true}
                             onPress={() => alert("Fitur Quiz Sejarah")}
                         />
                         <ProfessionalFeatureItem
